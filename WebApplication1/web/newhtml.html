@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title> Inicio de Sesión </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="./Css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./Css/Estilos.css" rel="stylesheet" media="screen">
+    <script src="./js/jquery-2.1.1.js" type="text/javascript"><!--mce:0--><!--mce:0--> </script>
+    <script src="js/jquery.validate.js" type="text/javascript"><!--mce:1--><!--mce:1--></script>    
+</head>
+<body>
+<div class="logo">  
+</div>
+    
+<form class="form-horizontal" id="formulario_registro1" action="RegistroServlet" method="post">     
+    <h2>Registro de Usuario</h2>
+
+    <div class="line" text-center></div>
+    <LABEL for="matricula" style="text-align:center">Matricula: </LABEL>            
+            <INPUT style="text-align:center" type="text" name="matricula" id="matricula">                    
+        <LABEL for="nombre" style="text-align:center">Nombre: </LABEL>            
+            <INPUT style="text-align:center" type="text" name="nombre" id="nombre">                    
+        <LABEL for="apellidoP" style="text-align:center" >Apellido Paterno: </LABEL>
+             <INPUT  style="text-align:center"  type="text" name="paterno" id="paterno"> 
+        <LABEL for="apellidoM" style="text-align:center">Apellido Materno: </LABEL>
+                <INPUT  style="text-align:center" type="text" name="materno" id="materno"> 
+        <LABEL for="email" style="text-align:center" >email: </LABEL>
+               <INPUT  style="text-align:center" type="text" name="email" id="email"> 
+       <LABEL for="fechaN" style="text-align:center" >Fecha de Nacimiento </LABEL>
+               <INPUT  style="text-align:center" type="date" name="fechaN" id="fechaN"> 
+        <LABEL for="calle" style="text-align:center" >Callle </LABEL>
+               <INPUT  style="text-align:center" type="text" name="calle" id="calle"> 
+        <LABEL for="colonia" style="text-align:center" >Colonia </LABEL>
+               <INPUT  style="text-align:center" type="text" name="colonia" id="colonia"> 
+       <LABEL for="Numero" style="text-align:center" >Número </LABEL>
+               <INPUT  style="text-align:center" type="text" name="Numero" id="Numero"> 
+        <LABEL for="Cp" style="text-align:center" >Codigo Postal </LABEL>
+               <INPUT  style="text-align:center" type="text" name="CP" id="CP"> 
+        <LABEL for="sexo" style="text-align:center" >Sexo </LABEL>
+               <input style="text-align:center" type="radio" name="sexo" value="M"> Masculino
+               <input  style="text-align:center" type="radio" name="sexo" value="F"> Femenino
+               <br>
+
+    <button name="Registar" type="submit" class="btn btn-lg btn-primary btn-sign-in" >Guardar Datos
+    </button>    
+</form>
+    <a href="login.html">	
+<input class="btn btn-lg btn-primary btn-sign-in" type="submit" value="Regresar"></a>
+</body>
+</html>

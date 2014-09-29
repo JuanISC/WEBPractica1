@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Inicio de Sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="./Css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./Css/Estilos.css" rel="stylesheet" media="screen">
+	
+	</head>
+
+   
+            <body>               
+            <div class="panel panel-default container">
+            <p class="NombreUsuario"> Bienvenidotse <a href="CerrarSesion"> <img  class="pequeña" src="./Imagenes/logout.png"> </a></p>
+            <a href="MostarModificarServlet"> <img  class="pequeña" src="./Imagenes/logout."> </a>
+            <br/> <br/>  <br/>
+            <div class="panel-heading text-center"> <h1>Listado de Usuarios</h1> </div>            
+            <h1 align="center"  >"Listado de Usuarios"</h1>
+            <table  class="table table-hover table-striped">
+            <tr class="active">
+			<th>IdUsuario </th> 
+			<th>Nombre </th> 
+			<th>Paterno </th>
+			<th>Materno </th> 
+			<th>Email</th>
+            <th>Nombre de Usuario  </th>
+			<th> Clave de Usuario </th> 
+			<th> Tipo Usuario </th>
+			<th> Acción</th>
+            </tr>    
+            <tr class="active">
+                 <td > </td>
+                 <td > </td>
+                 <td >	</td>
+                 <td > </td>
+                 <td > </td>
+                 <td >	</td>
+                 <td > </td>
+                 <td > </td>
+                 <td >
+					<a href="EliminarServlet?id=id"> <img class="chico" src="./Imagenes/eliminar.png"> </a>n
+					<a href="MostarModificarServlet?id=id"> <img  class="chico" src="./Imagenes/modificar.jpg"> </a>
+                 </td>
+                 </tr>               
+            
+            </table>
+            <br> <br> <br> <br>            
+            <p align="center">
+            <a class="chico"  href="Registro.html">
+                      <img src="./Imagenes/agregar.jpg"> 
+                      </a>
+            </p>
+            <br>
+            <br>
+            <br>                
+            </div>
+            </body>
+            </html>
